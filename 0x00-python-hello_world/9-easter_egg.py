@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-print("The Zen of Python, by Tim Peters\n\nBeautiful is better than ugly.\n\
+print(
+    "The Zen of Python, by Tim Peters\n\nBeautiful is better than ugly.\n\
 Explicit is better than implicit.\nSimple is better than complex.\nComplex\
  is better than complicated.\nFlat is better than nested.\nSparse is better\
  than dense.\nReadability counts.\nSpecial cases aren't special enough to\
@@ -10,4 +11,5 @@ Explicit is better than implicit.\nSimple is better than complex.\nComplex\
  unless you're Dutch.\nNow is better than never.\nAlthough never is often\
  better than *right* now.\nIf the implementation is hard to explain, it's a\
  bad idea.\nIf the implementation is easy to explain, it may be a good idea.\
-\nNamespaces are one honking great idea -- let's do more of those!")
+\nNamespaces are one honking great idea -- let's do more of those!"
+)
