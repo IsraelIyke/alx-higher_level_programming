@@ -12,6 +12,6 @@ def uppercase(str):
             str2 = str1 - 32
         str3 = chr(str2)
         if i == len(str) - 1:
-            print(f"{str3}")
+            print("{}".format(str3))
         else:
-            print(f"{str3}", end="")
+            print("{}".format(str3), end="")
