@@ -13,5 +13,7 @@ def uppercase(str):
         str3 = chr(str2)
         if i == len(str) - 1:
             print("{}".format(str3))
+        elif i < 0:
+            print("{}".format(str))
         else:
             print("{}".format(str3), end="")
