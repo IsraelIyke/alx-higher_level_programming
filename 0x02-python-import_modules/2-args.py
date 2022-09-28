@@ -11,4 +11,4 @@ if __name__ == "__main__":
         for i in range(len(argv)):
             print("{:d}: {}".format(i + 1, argv[i + 1]))
     else:
-        print("{:d} arguments.".format(len(argv)))
+        print("{:d} arguments.".format(len(argv) - 1))
