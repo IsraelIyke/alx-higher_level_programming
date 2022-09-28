@@ -6,7 +6,7 @@ if __name__ == "__main__":
 
     add(int(add_0.argv[1]))
 
-a = 1
-b = 2
-func = add(a, b)
-print("{} + {} = {}".format(a, b, func))
+    a = 1
+    b = 2
+    func = add(a, b)
+    print("{} + {} = {}".format(a, b, func))
