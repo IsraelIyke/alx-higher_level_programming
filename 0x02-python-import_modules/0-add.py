@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-from add_0 import add
+if __name__ == "__main__":
+    import sys
+
+    add(int(sys.argv[1]))
 
 a = 1
 b = 2
