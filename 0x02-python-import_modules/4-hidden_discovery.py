@@ -5,4 +5,4 @@ import hidden_4
 if __name__ == "___main__":
     for x in dir(hidden_4):
         if x[:2] != "__":
-            print(name)
+            print(x)
