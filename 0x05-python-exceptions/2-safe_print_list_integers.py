@@ -9,12 +9,12 @@ def safe_print_list_integers(my_list=[], x=0):
             if isinstance(my_list[i], int):
                 try:
                     if i == x - 1:
-                        print(my_list[i])
+                        print("{:d}".format(my_list[i]))
                     else:
-                        print(my_list[i], end="")
+                        print("{:d}".format(my_list[i]), end="")
 
                 except Exception as e:
-                    print(e)
+                    print("{}".format(e))
             else:
                 continue
         return x
