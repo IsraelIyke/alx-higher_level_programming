@@ -1,6 +1,8 @@
 #!/usr/bin/python3
-__init__.py
+"""A square module"""
 
 
 class Square:
+    """A square class"""
+
     pass
