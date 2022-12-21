@@ -1,3 +1,4 @@
+#!/usr/bin/node
 const arr = process.argv;
 const newArray = [];
 if (arr.length < 3 || arr.length === 3) {
