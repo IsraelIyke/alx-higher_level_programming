@@ -6,21 +6,13 @@ class Square:
     """A square class"""
 
     def __init__(self, size=0):
-        if type(size) is not int:
-            raise TypeError("size must be an integer")
-        else:
-            if int(size) < 0:
-                raise ValueError("size must be >= 0")
-            else:
-
-                try:
-                    self.__size = size
-
-                except TypeError as e:
-                    print(e)
+        self.__size = size
+        print(size**2)
+        return size**2
 
     def size(self, value):
-        return self.__size
+        self.my_var = value
+        print(self.my_var**2)
 
     def area(self):
-        return self.__size**2
+        return self.get_value()
