@@ -1,15 +1,15 @@
 #!/usr/bin/node
-const a = Math.floor(Number(process.argv[2]));
-const b = Math.floor(Number(process.argv[3]));
+const alpha = Math.floor(Number(process.argv[2]));
+const beta = Math.floor(Number(process.argv[3]));
 
-if (isNaN(a)) {
-  console.log("Missing");
-} else if (isNaN(b)) {
-  console.log("Missing");
-} else {
-  function add(a, b) {
+function add(a, b) {
+  if (isNaN(a)) {
+    return b;
+  } else if (isNaN(b)) {
+    return a;
+  } else {
     return a + b;
   }
 }
 
-console.log(add(a, b));
+console.log(add(alpha, beta));
